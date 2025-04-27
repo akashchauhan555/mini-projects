@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif
+}
+/* Header */
+.header_section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    position: fixed;
+    /* border: 1px solid red; */
+}
+.header_section h2{
+    color: white;
+}
+.header_list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+#headera1{
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+#headera1::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    top: 22px;
+    border-radius: 3px;
+}
+.headera{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.headera::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    top: 22px;
+    border-radius: 3px;
+    display: none;
+}
+.headera:hover::after{
+    display: block;
+}
+.header_list i{
+    font-size: 20px;
+    color: white;
+}
+
+/* Main */
+/* Section 1 */
+#sec1{
+    padding-top: 150px;
+    /* border: 2px solid red; */
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-image: url(./images/hero-bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#sec1heading1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#sec1heading2{
+    font-size: 42px;
+    padding-bottom: 10px;
+}
+#sec1heading3{
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+#sec1para1{
+    font-size: 18px;
+    line-height: 23px;
+}
+#sec1contactus{
+    width: 173px;
+    height: 41px;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 45px 0px;
+    padding: 10px 0px;
+    color: white;
+    border: 1px solid white;
+}
+#sec1contactus:hover{
+    background-color: white;
+    color: black;
+}
+#sec1div1{
+    margin-bottom: 73px;
+}
+
+/* Section 2 */
+#sec2{
+    background-image: url(images/us-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+#sec2heading1{
+    font-size: 36px;
+    padding-bottom: 50px;
+    position: relative;
+}
+#sec2heading1::after{
+    content: "";
+    height: 6px;
+    background-color: brown;
+    width: 60px;
+    right: 128px;
+    top: 42px;
+    position: absolute;
+}
+#sec2maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec2div{
+    width: 250px;
+    margin: 27px;
+}
+.sec2div h3{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.sec2div p{
+    line-height: 26px;
+}
+
+/* Section 3 */
+#sec3{
+    padding-top: 120px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-image: url(images/healthy-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#sec3 h2{
+    padding-bottom: 40px;
+    font-size: 34px;
+    font-weight: 700;
+}
+#sec3 p{
+    padding-bottom: 40px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+#sec3 #readmore{
+    width: 173px;
+    height: 41px;
+    font-size: 17px;
+    padding-top: 11px;
+    margin-bottom: 120px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+#sec3 #readmore:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Section 4 */
+#sec4{
+    padding-top: 120px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-image: url(./images/trainer-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap; 
+    padding: 100px;
+}
+#sec4heading1{
+    font-size: 36px;
+    padding-bottom: 50px;
+    position: relative;
+}
+#sec4heading1::after{
+    content: "";
+    height: 6px;
+    background-color: brown;
+    width: 60px;
+    right: 150px;
+    top: 42px;
+    position: absolute;
+}
+.sec4container{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.sec4div h4{
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 45px;
+}
+.sec4div img {
+    border-radius: 10px;
+}
+.sec4div {
+    position: relative;
+}
+.sec4div .trainerlink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 55px;
+    width: 220px;
+    border-radius: 60px;
+    position: absolute;
+    left: 77px;
+    bottom: -20px;
+}
+.sec4div .trainerlink i {
+    font-size: 25px;
+    font-weight: 800;
+    color: red;
+}
+
+/* Section 5 */
+
+#sec5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #27223F;
+}
+#sec5 img {
+    min-width: 700px;
+    width: 50%;
+}
+.contactDiv {
+    min-width: 700px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0px 100px 20px;
+}
+#contactH2{
+    color: white;
+    font-size: 36px;
+    position: relative;
+    padding-bottom: 20px;
+}
+#contactH2::after{
+    content: "";
+    height: 6px;
+    background-color: brown;
+    width: 60px;
+    left: 87px;
+    top: 42px;
+    position: absolute;
+}
+.inputDetails{
+    width: 550px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    opacity: 1;
+}
+#messageInput{
+    height: 100px;
+}
+#sendButton{
+    width: 170px;
+    height: 44px;
+    margin: 50px 0px 0px 390px;
+    background-color: rgb(255, 41, 83);
+    color: white;
+}
+/* Section 6 */
+#sec6{
+    width: 100%;
+    background-color: rgb(27, 34, 51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+.sec6Div{
+    height: 125px;
+    width: 200px;
+    margin: 20px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+/* Footer */
+footer{
+    text-align: center;
+    font-weight: 400;
+    padding: 70px 0px 90px 0px;
+}

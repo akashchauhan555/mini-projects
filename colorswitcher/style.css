@@ -1,0 +1,58 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+#purple{
+    background-color: purple;
+}
+#pink{
+    background-color: pink;
+}
+#teal{
+    background-color: teal;
+}
+#blue{
+    background-color: blue;
+}
+#gold{
+    background-color: gold;
+}
+#crimson{
+    background-color: crimson;
+}
+#mainSection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 25px;
+    gap: 3px;
+}
+.btnbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+    gap: 5px;
+}
+.btnbox>button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
